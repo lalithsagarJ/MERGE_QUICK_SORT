@@ -6,7 +6,7 @@ void merge(int n,int a[n],int b,int m,int e){
 		if(a[i]<=a[j]){
 			B[k]=a[i];
 			i++;
-			j++;
+			k++;
 		}
 		else{
 			B[k]=a[j];
